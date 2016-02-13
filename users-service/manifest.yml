@@ -1,0 +1,7 @@
+---
+applications:
+- name: user
+  host: users-service-demo
+  memory: 512M
+  instances: 1
+  path: target/users-service-0.0.1-SNAPSHOT.jar

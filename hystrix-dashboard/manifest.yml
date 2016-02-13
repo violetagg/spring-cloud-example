@@ -1,0 +1,7 @@
+---
+applications:
+- name: hystrixdashboard
+  host: hystrix-dashboard-demo
+  memory: 512M
+  instances: 1
+  path: target/hystrix-dashboard-0.0.1-SNAPSHOT.jar

@@ -1,0 +1,7 @@
+---
+applications:
+- name: ui
+  host: ui-service-demo
+  memory: 512M
+  instances: 1
+  path: target/ui-service-0.0.1-SNAPSHOT.jar

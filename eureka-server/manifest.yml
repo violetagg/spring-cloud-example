@@ -1,0 +1,7 @@
+---
+applications:
+- name: discovery
+  host: eureka-server-demo
+  memory: 512M
+  instances: 1
+  path: target/eureka-server-0.0.1-SNAPSHOT.jar

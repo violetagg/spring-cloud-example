@@ -1,0 +1,7 @@
+---
+applications:
+- name: gateway
+  host: api-gateway-demo
+  memory: 512M
+  instances: 1
+  path: target/api-gateway-0.0.1-SNAPSHOT.jar
